@@ -1,0 +1,24 @@
+header {
+	background-color: #FF0000;
+	height: 100px;
+	width: 100%;
+	border-bottom: 1px solid #CCCCCC;
+	display: flex;
+	align-items: center;
+	background-repeat: no-repeat;
+	background-position: 5px center;
+}
+footer {
+	background-color: #FFFACD;
+	width: 100%;
+	height: 70px;
+	text-align: center;
+	position: fixed;
+	line-height: 60px;
+	bottom: 0;
+	border-top: 1px solid #CCCCCC;
+	align-items: center;
+	flex-direction: column;
+	display: flex;
+	justify-content: center;
+}
