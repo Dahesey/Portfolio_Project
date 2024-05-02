@@ -1,17 +1,35 @@
-<DOCTYPE=html>
-<html>
+<!DOCTYPE=html>
+<html lang="en">
 	<head>
 		<title>Sign_up Page</title>
+		<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+		<link rel="stylesheet" href="{{ url_for('static', filename='common.css') }}">
 
 	</head>
 	<body>
-		<p>First Name</p>
-		<p>Surname</p>
-		<p>Organizational Email</p>
-		<p>Password</p>
-		<p>Must contain 8+ characters, including at least 1 letter and 1 number</p>
-		<p>Confirm Password</p>
-		<h1>Sign Up</h1>
+		<header>
+			<button class="full-width"><h1>Members</h1></button>
+			<button class="full-width"><h1>Contributions</h1></button>
+			<button class="full-width"><h1>Landing Page</h1></button>
+			<button class="full-width"><h1>Contact Us</h1></button>
+		</header>
+		<form>
+			<label for="firstname">First Name</label>
+			<input type="text" id="firstname"><br><br>
+			<label for="surname">Surname</label>
+			<input type="text" id="surname"><br><br>
+			<label for="email">Organizational Email</label>
+			<input type="email" id="email"><br><br>
+			<label for="password">Password</label>
+			<input type="password" id="password"><br><br>
+			<p>Must contain 8+ characters, including at least 1 letter and 1 number</p>
+			<label for="confirm">Confirm Password</label>
+			<input type="password" id="confirm"><br><br>
+			<input type="submit" value="Sign Up">
+		</form>
+		<footer>
+			God's Kingdom, Our Priority
+		</footer>
 
 	</body>
 
