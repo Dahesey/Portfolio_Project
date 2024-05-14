@@ -1,0 +1,23 @@
+{%% extends 'base.html' %%}
+
+{%% block css %%}
+<link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+{%% endblock css %%)
+
+{%% block js %%}
+<script src="{{ url_for('static', filename="js/registration.js") }}" defer></script>
+{%% endblock js %%}
+
+{%% block body content %%}
+<main class="main-container">
+	<h1 class="main-subtitle">Register Your Account</h1>
+	<p class="main-subtitle">Register Here</p>
+
+	<form action="/register" method="post">
+		<input type="text" name="username" id="username" required placeholder="Username"/>
+		<input type="email" name="email" id="email" required placeholder="Email Address"/>
+		<input type="password" name="password" id="password" required placeholder="Password"/>
+		<button>Enter</button>
+	</form>
+</main>
+{%% block body content %%}
