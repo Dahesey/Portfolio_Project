@@ -1,3 +1,8 @@
+Project Name: Potter's Queue
+Owner: Cynthia Dodzi
+Twitter: @cynthiadodzi
+LinkedIn: @dahesey
+
 Architecture
 
 
@@ -169,10 +174,7 @@ I should be able to create and manage budgets for different church ministries, p
 I should be able to monitor budget vs. actual spending and adjust allocations as needed to ensure financial stability and alignment with church priorities.
 Compliance and Accountability:
 
-I should ensure compliance with financial regulations and church policies, maintaining accurate records and documentation for audits or reviews.
-I should implement internal controls to safeguard church assets and prevent fraud or misuse of funds.
+I should ensure compliance with financial regulations and church policies, maintaining accurate records and documentation for audits I should implement internal controls to safeguard church assets and prevent fraud or misuse of funds
 
-Mock ups
-
-
+Screenshot
 
