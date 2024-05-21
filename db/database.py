@@ -1,8 +1,11 @@
-from flask import Flask
-from flask_pymongo import PyMongo
+from pymongo import MongoClient
 
-def connect_db(app: Flask):
-    app = app(__name__)
-    app.config["MONGO_URI"] = "mongodb://localhost:27017/myDatabase"
-    mongo = PyMongo(app)
-    return mongo
+def get_db():
+    try:
+        client = MongoClient('cluster0.bqpfelu.mongodb.net', 27017, username='dahesey', password='QvL3T3Sv5hVIOueu')
+        db = client["portfolio_project"]
+        print("connection successful...")
+        return db
+    except Exception as e:
+        print(str(e))
+        raise str(e)
