@@ -1,13 +1,13 @@
 from pydantic import BaseModel
 from datetime import datetime
 
-class Login(BaseModel):
+class LoginSchema(BaseModel):
     id: int
     email: str
     password:str
     timestamp: datetime
 
-class Registration(BaseModel):
+class RegistrationSchema(BaseModel):
     id: int
     fullname: str
     email: str

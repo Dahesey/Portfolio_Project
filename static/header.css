@@ -1,0 +1,13 @@
+header {
+    color: lightcoral;
+    height: 70px;
+    width: 100%;
+    border-bottom: 1px solid black;
+    object-position: left;
+    display: flex;
+    align-items: center;
+    background-image: url(.../image/background.jpg);
+    background-repeat: no-repeat;
+    background-position: 20px center;
+}
+
